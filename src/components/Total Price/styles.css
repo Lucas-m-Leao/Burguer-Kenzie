@@ -1,0 +1,20 @@
+.totalPrice {
+  display: flex;
+  flex-direction: row;
+  width: 82%;
+  justify-content: space-between;
+}
+.total {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  color: #333333;
+}
+.valor {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  color: #828282;
+}

@@ -1,0 +1,109 @@
+.contCarrinho {
+  background: #27ae60;
+  border-radius: 5px 5px 0px 0px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffffff;
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+}
+.conteinerCarrinho {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.conteinerUl {
+  display: flex;
+  width: 80%;
+  padding: 0;
+  flex-direction: column;
+  gap: 15px;
+  max-height: 15rem;
+  overflow: auto;
+}
+.listaCarrinho {
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+  justify-content: space-between;
+}
+.listaCarrinho > button {
+  border: none;
+  width: 4rem;
+  height: 1.5rem;
+  background: none;
+}
+.CardImg {
+  background: #e0e0e0;
+  border-radius: 5px;
+  width: 72px;
+  height: 70px;
+  margin-top: 5px;
+}
+.CardImg > img {
+  width: 70px;
+  height: 70px;
+}
+.conteinerText {
+  display: flex;
+  flex-direction: column;
+}
+.conteinerText > h2 {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  color: #333333;
+}
+.conteinerText > p {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #828282;
+}
+.conteinerCarrinho > button {
+  padding: 0px 20px;
+  background: #e0e0e0;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  width: 84%;
+  margin-bottom: 30px;
+  height: 3rem;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: #828282;
+}
+.tituloVazio {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  color: #333333;
+}
+.paragrafoVazio {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+@media (min-width: 1025px) {
+  .conteinerUl {
+    height: 15rem;
+  }
+  .conteinerCarrinho {
+    margin-top: 15px;
+    width: 26rem;
+  }
+}

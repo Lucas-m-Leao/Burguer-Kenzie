@@ -1,0 +1,18 @@
+.container {
+  overflow-y: hidden;
+  overflow-x: scroll;
+  width: 95vw;
+  display: flex;
+  height: 20.2rem;
+  gap: 15px;
+  padding-left: 20px;
+}
+@media (min-width: 1025px) {
+  .container {
+    overflow: visible;
+    width: 51%;
+    padding-left: 0%;
+    flex-wrap: wrap;
+    align-content: space-between;
+  }
+}
